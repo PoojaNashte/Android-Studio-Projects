@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/pooja"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:text="Name: Pooja Nashte"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Class: TY CSE"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Roll No: 18"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Contact No: 8788639775"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Education Details"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:background="#DDDDDD"
+            android:padding="4dp">
+
+            <TableRow android:background="#CCCCCC">
+
+                <TextView
+                    android:text="Qualification"
+                    android:textStyle="bold"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:text="Percentage"
+                    android:textStyle="bold"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="10th"
+                    android:padding="8dp"/>
+                <TextView
+                    android:text="95%"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="12th"
+                    android:padding="8dp"/>
+                <TextView
+                    android:text="75%"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="B.Tech CSE"
+                    android:padding="8dp"/>
+                <TextView
+                    android:text="Pursuing"
+                    android:padding="8dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>
